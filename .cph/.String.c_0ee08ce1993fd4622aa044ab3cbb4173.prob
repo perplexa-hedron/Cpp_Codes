@@ -1,0 +1,1 @@
+{"name":"Local: String","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\String.c","tests":[{"id":1646279898821,"input":"hellomiss\no","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\String.c","group":"local","local":true}

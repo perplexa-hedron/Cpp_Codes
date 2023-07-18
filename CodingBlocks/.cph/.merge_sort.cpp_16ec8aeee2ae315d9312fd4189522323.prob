@@ -1,0 +1,1 @@
+{"name":"Local: merge_sort","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\merge_sort.cpp","tests":[{"id":1686067460675,"input":"5\n6 4 1 2 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\merge_sort.cpp","group":"local","local":true}

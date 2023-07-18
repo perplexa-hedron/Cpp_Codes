@@ -1,0 +1,1 @@
+{"name":"Local: vowel","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\vowel.c","tests":[{"id":1646903609093,"input":"abcdefghijklmnopqrstuvwxyz","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\vowel.c","group":"local","local":true}

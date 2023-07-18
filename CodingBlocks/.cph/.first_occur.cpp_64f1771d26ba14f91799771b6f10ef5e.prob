@@ -1,0 +1,1 @@
+{"name":"Local: first_occur","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\first_occur.cpp","tests":[{"id":1685204685570,"input":"7\n1 5 8 6 4 8 3\n8","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\first_occur.cpp","group":"local","local":true}

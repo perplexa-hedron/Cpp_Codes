@@ -1,0 +1,1 @@
+{"name":"Local: Fibo","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\Coursera\\Fibo.cpp","tests":[{"id":1661872754107,"input":"10","output":"0 1 1 2 3 5 8 13 21 34"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\Coursera\\Fibo.cpp","group":"local","local":true}

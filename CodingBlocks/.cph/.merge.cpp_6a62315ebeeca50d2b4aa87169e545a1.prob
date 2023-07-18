@@ -1,0 +1,1 @@
+{"name":"Local: merge","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\merge.cpp","tests":[{"id":1685265836168,"input":"5\n1 4 2 6 3","output":"1 2 3 4 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\merge.cpp","group":"local","local":true}

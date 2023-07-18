@@ -1,0 +1,1 @@
+{"name":"Local: refill","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\Coursera\\refill.cpp","tests":[{"id":1666460636267,"input":"700 200\n4\n200 400 500 600","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\Coursera\\refill.cpp","group":"local","local":true}

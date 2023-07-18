@@ -1,0 +1,1 @@
+{"name":"Local: issorted","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\issorted.cpp","tests":[{"id":1685198570284,"input":"6\n1 2 3 4 5 6","output":"sorted"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\issorted.cpp","group":"local","local":true}

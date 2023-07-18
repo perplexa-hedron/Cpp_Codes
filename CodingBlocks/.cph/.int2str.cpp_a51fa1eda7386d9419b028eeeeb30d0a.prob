@@ -1,0 +1,1 @@
+{"name":"Local: int2str","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\int2str.cpp","tests":[{"id":1685261752285,"input":"0100101001","output":"two zero four eight"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\int2str.cpp","group":"local","local":true}

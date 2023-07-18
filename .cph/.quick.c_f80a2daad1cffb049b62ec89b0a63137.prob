@@ -1,0 +1,1 @@
+{"name":"Local: quick","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\quick.c","tests":[{"id":1650130856253,"input":"5\n3 2 1 6 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\quick.c","group":"local","local":true}

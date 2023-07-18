@@ -1,0 +1,1 @@
+{"name":"Local: last_occur","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\last_occur.cpp","tests":[{"id":1685258330404,"input":"6\n1 3 2 4 1 6\n1","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\last_occur.cpp","group":"local","local":true}

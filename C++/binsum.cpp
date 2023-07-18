@@ -1,0 +1,106 @@
+#include <bits/stdc++.h>
+using namespace std;
+int reverse(int n)
+{
+    int a,ans = 0;
+    while(n>0)
+    {
+        a = n % 10;
+        ans = ans*10 + a;
+        n = n/10;
+    }
+    return ans;
+}
+int add(int a,int b)
+{
+    int add =0 ,carry = 0;
+    while (a > 0 && b > 0)
+    {
+        if(a % 2 == 0 && b % 2 ==0)
+        {
+            add = add*10 + carry;
+            carry = 0;
+        }
+
+        else if((a % 2 == 0 && b % 2 ==1) || (a % 2 == 1 && b % 2 == 0))
+        {
+            if(carry == 1)
+            {
+                add = add*10 + 0;
+                carry = 1;
+            }
+
+            else
+            {
+                add = add*10 + 1;
+                carry = 0;
+            }
+        }
+
+        else
+        {
+            add = add*10 + carry;
+            carry = 1;
+        }
+        a /= 10;
+        b /= 10;
+    }
+
+    while (a > 0)
+    {
+        if(carry == 1)
+        {
+            if(a % 2 == 1)
+            {
+                add = add*10 + 0;
+                carry = 1;
+            }
+            else
+            {
+                add = add*10 + 1;
+                carry = 0;
+            }
+        }
+        else
+        {
+            add = add * (a%2);
+        }
+        a/=10;
+    }
+
+    while (b > 0)
+    {
+        if(carry == 1)
+        {
+            if(b % 2 == 1)
+            {
+                add = add*10 + 0;
+                carry = 1;
+            }
+            else
+            {
+                add = add*10 + 1;
+                carry = 0;
+            }
+        }
+        else
+        {
+            add = add * (b%2);
+        }
+        b/=10;
+    }
+
+    if(carry == 1)
+    {
+        add = add*10 + 1;
+    }
+
+    add = reverse (add);
+    return add;
+}
+int main()
+{
+    int a, b;
+    cin>>a>>b;
+    cout<<add(a,b)<<endl;
+}

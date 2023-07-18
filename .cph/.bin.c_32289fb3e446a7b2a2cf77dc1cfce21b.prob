@@ -1,0 +1,1 @@
+{"name":"Local: bin","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\bin.c","tests":[{"id":1646586389093,"input":"1 2 3 4 5 6 7 8 9 10\n6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\bin.c","group":"local","local":true}

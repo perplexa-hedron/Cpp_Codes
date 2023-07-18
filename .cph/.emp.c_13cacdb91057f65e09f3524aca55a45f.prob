@@ -1,0 +1,1 @@
+{"name":"Local: emp","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\emp.c","tests":[{"id":1646300671225,"input":"12 2000 Naman\n13 5000 Shivansh","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\emp.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: ll_append","url":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\ll_append.cpp","tests":[{"id":1686646710758,"input":"7\n1 2 2 1 8 5 6\n4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Piyush sinha\\OneDrive\\Documents\\VS code\\CodingBlocks\\ll_append.cpp","group":"local","local":true}
