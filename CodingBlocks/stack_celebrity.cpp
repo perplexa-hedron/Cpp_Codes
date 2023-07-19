@@ -20,7 +20,6 @@ ostream &operator<<(ostream &os, stack<long long> s)
 int celebrity(int arr[][100], int n)
 {
     stack<int> s;
-
     for (int i = 0; i < n; i++)
     {
         s.push(i);
