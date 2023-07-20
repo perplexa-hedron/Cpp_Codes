@@ -11,12 +11,12 @@ void para(char *a, int n, int o, int c, int i)
     }
     if (o > c)
     {
-        a[i] = ')';
+        a[i] = '>';
         para(a, n, o, c + 1, i + 1);
     }
     if (o < n)
     {
-        a[i] = '(';
+        a[i] = '<';
         para(a, n, o + 1, c, i + 1);
     }
 }

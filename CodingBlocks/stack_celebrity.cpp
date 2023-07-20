@@ -43,7 +43,7 @@ int celebrity(int arr[][100], int n)
     s.pop();
     for (int i = 0; i < n; i++)
     {
-        if (i != c && (arr[c][i] || arr[i][c] == 0))
+        if (i != c && (arr[c][i] || !arr[i][c]))
         {
             return -1;
         }
