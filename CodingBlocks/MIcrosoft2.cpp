@@ -1,5 +1,8 @@
 #include <unordered_set>
+#include <string> 
+#include <vector>
 #include <algorithm>
+using namespace std;
 bool canConnect(const string& first, const string& second) {
     return first[1] == second[0];
 }
