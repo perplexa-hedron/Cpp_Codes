@@ -37,7 +37,7 @@ class brute_solution{
 };
 
 
-class dijsktra_solution{
+class priority_queue_dijsktra_solution{
     public:
     vector<int> dijsktra(int V,vector<vector<int>> adj[],int S){
         priority_queue <pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
@@ -64,6 +64,36 @@ class dijsktra_solution{
             }
         }
 
+        return dist;
+    }
+};
+
+class set_dijsktra_solution{
+    public:
+    vector<int> dijsktra(int V,vector<vector<int>> adj[],int S){
+        set<pair<int,int>> st;
+        vector<int> dist(V,1e9);
+        st.insert({0,S});
+        dist[S] = 0;
+
+        while(!st.empty()){
+            auto it = * (st.begin());
+            int weight = it.first;
+            int node = it.second;
+            st.erase(it);
+            for(auto it: adj[node]){
+                int adjnode = it[0];
+                int edgeweight = it[1];
+
+                if(weight + edgeweight < dist[adjnode]){
+                    if(dist[adjnode] != 1e9){
+                        st.erase({dist[adjnode],adjnode});
+                    }
+                    dist[adjnode] = weight + edgeweight;
+                    st.insert({dist[adjnode], adjnode});
+                }
+            }
+        }
         return dist;
     }
 };
