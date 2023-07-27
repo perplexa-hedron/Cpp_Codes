@@ -116,8 +116,8 @@ void right_view(node * root,int level,int &max_level){
         cout<<root->data<<" ";
         max_level = level;
     }
-    right_view(root->left,level+1,max_level);
     right_view(root->right,level+1,max_level);
+    right_view(root->left,level+1,max_level);
 }
 int main()
 {

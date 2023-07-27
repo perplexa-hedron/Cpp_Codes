@@ -23,12 +23,12 @@ private:
     }
 
 public:
-    int countDistintIslands(vector<vector<int>> &grid)
+    int countDistintIslands(vector<vector<int>> &grid,int n,int m)
     {
-        int n = grid.size();
-        int m = grid[0].size();
+        // int n = grid.size();
+        // int m = grid[0].size();
         vector<vector<int>> vis(n, vector<int>(m, 0));
-        set<vector<pair<int, int>>> st;
+        queue<vector<pair<int, int>>> st;
         for (int i = 0; i < n; i++)
         {
             for (int j; j < m; j++)
@@ -37,7 +37,7 @@ public:
                 {
                     vector<pair<int, int>> vec;
                     dfs(i, j, grid, vis, vec, i, j);
-                    st.insert(vec);
+                    st.push(vec);
                 }
             }
         }

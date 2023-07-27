@@ -39,11 +39,11 @@ bool sudoku(int arr[][9], int i, int j, int n)
         {
             for (int l = 0; l < n; l++)
             {
-                cout << arr[k][l] << " ";
+                // cout << arr[k][l] << " ";
             }
-            cout << endl;
+            // cout << endl;
         }
-        cout<<endl;
+        // cout<<endl;
         return true;
     }
     if (j == n)
@@ -71,10 +71,10 @@ bool sudoku(int arr[][9], int i, int j, int n)
 
 int main()
 {
-    int n;
-    cin>>n;
-    int arr[n][9] = {0};
-    for (int i = 0; i < n; i++)
+    // int n;
+    // cin>>n;
+    int arr[9][9] = {0};
+    for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 9; j++)
         {
@@ -83,5 +83,7 @@ int main()
     }
 
     bool ans = sudoku(arr, 0, 0, 9);
+    if(ans == true) cout<<"Yes";
+    else cout<<"N";
     return 0;
 }

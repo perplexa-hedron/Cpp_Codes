@@ -1,0 +1,98 @@
+//3
+
+You are going to start a Debate Club in your College and want to make its opening as eye-catchy as possible! You came up with the idea of having a mock round table conference among the students of your college. To make this event a success you sent out invitations to your colleagues.
+
+Your colleagues are ready to come to your conference but only on one condition. Each colleague has a friend and will only attend the event if they get to sit next to that friend. Of course, the friend cannot be the person himself.
+
+The colleagues are numbered from 0 to N-1
+
+To make this event a success you have to make sure that it gets attended by the maximum number of people possible.
+
+Here, a 0-indexed integer array "friends" is given, where friends[i] denotes the friend of the ith colleague. Return the maximum number of colleagues that can be invited to the meeting.
+
+Sample:
+
+Input: friends = [3,0,1,4,1]
+Output: 4
+Explanation:
+Colleague 2 cannot be invited because the two spots next to their friend 1 are taken.
+So the company leaves them out of the meeting.
+The maximum number of employees that can be invited to the meeting is 4.
+
+Constraints:
+
+N == friends.length
+2 <= N <= 10^4
+0 <= friends[i] <= N - 1
+friends[i] != i
+
+
+//2
+You are given a 1-indexed array of size N and you need to construct a directed graph from this array such that it satisfies the following conditions
+
+Any directed edge between two nodes will have a value that will define the distance between those two nodes. These values can also be negative.
+There should be connectivity between every pair of nodes i.e. there should be a path of edges that connect every pair of the node in the graph.
+Minimum distance of node i from node 1 should be equal to arr[i]. It is given that arr[1] will always be 0.
+The score of a graph is defined as the sum of the values of the directed edges in the graph.
+
+Output the minimum score you can get by generating any graph which satisfies the above conditions.
+
+Example:
+n = 2
+arr = [0, 2]
+
+Two edges can be there where the value of the edge from 1->2 will be 2 and from 2->1 will be -2. This graph satisfies all the conditions mentioned and the sum of value of the edges will be 0.
+
+[execution time limit] 0.5 seconds (cpp)
+
+[memory limit] 1 GB
+
+[input] integer n
+
+Number of nodes in the graph. 1<=n<=100000
+
+[input] array.integer arr
+
+Array arr where the ith node will represent the distance of node ith from 1. arr[1] = 0, 0<=arr[i]<=10^9
+
+[output] integer64
+
+Minimum score of the graph
+
+
+//1
+Given a healthy tree with N nodes rooted at node 1 and each node having some number of fruits attached to it. In one operation, you can collect all the fruits of a node and keep it to yourself. While performing this operation, you need to make sure that tree always remains healthy.
+
+A tree is called healthy if from the root node to every leaf node there is at least one node with some number of fruits.
+
+Output the maximum number of fruits you can collect from the tree.
+
+Sample Input
+n = 5
+tree = [0, 1, 1, 2, 2]
+fruits = [7, 4, 2, 3, 4]
+
+
+
+Output: 14
+Explanation: You can fruits from node 1,4,5. The tree will still remain healthy as from the root node to every leaf there is at least one node with fruits.
+
+[execution time limit] 0.5 seconds (cpp)
+
+[memory limit] 1 GB
+
+[input] integer n
+
+Number of nodes of tree, 1<=n<=100000
+
+[input] array.integer tree
+
+Every element defines the parent of the ith node. For 1, the value will always be 0 as it is the root node. Given tree can be n-ary i.e. a node of a tree can have any number of child nodes.
+
+[input] array.integer fruits
+
+Every element defines a number of fruits for ith node. 0<Ai<= 10^9
+
+[output] integer64
+
+Maximum number of fruits you can collect

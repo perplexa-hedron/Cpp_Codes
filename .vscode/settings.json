@@ -69,7 +69,8 @@
         "span": "cpp",
         "stacktrace": "cpp",
         "regex": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "*.tcc": "cpp"
     },
     "cph.general.onceMaintainerMessage": false
 }
