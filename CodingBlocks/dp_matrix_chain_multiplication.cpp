@@ -19,7 +19,7 @@ private:
         }
         return dp[i][j] = mini;
     }
-    int tabultaion(vector<int> &matrix, int n){
+    int tabulation(vector<int> &matrix, int n){
         vector<vector<int>> dp(n, vector<int>(n, 0));
         for(int i =1;i<n;i++){
             dp[i][i] =0;
