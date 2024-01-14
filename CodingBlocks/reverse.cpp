@@ -8,10 +8,15 @@ int main()
     cin>>n;
     //int i =0;
     while(n!=0){
-        cout<<n%10;
+        sum = sum*10 + n%10;
         n = n/10;
         //cout<<r;
     }
-    //cout<<sum<<endl;
+    if(sum > (2e31-1) || sum<(-2e32)){
+        cout<<0;
+        return 0;
+    }
+
+    else{cout<<sum<<endl;}
     return 0;
 }

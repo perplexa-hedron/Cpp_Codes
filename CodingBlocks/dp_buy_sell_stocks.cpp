@@ -11,7 +11,6 @@ class Solution{
             maxprofit = max(maxprofit,cost);
             mini = min(mini,prices[i]);
         }
-
         return maxprofit; 
     }  
 };
