@@ -18,7 +18,7 @@ int main()
         if(arr[i] >= 0){
             check[arr[i]] = true;
         }
-    }
+    }zkjfvzsnfzkjshjozf
     int ans = -1;
     for(int i = 1; i < n-1; i++)
     {
